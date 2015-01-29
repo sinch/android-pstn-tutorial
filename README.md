@@ -13,7 +13,7 @@ To use the Sinch SDK, you will need to create a developer account. If you don't 
  
 Once you've created your app, you will see you app key and secret in the dashboard. You will need these in a few minutes. 
 
-To download a copy of the latest version of the Sinch Android SDK, head over to [sinch.com/downloads](http://www.sinch.com/downloads/). Once you've downloaded the SDK, follow these instructions to include it in your project:
+To download a copy of the latest version of the Sinch Android SDK, head over to [sinch.com/downloads](https://www.sinch.com/downloads/). Once you've downloaded the SDK, follow these instructions to include it in your project:
 
 **Android Studio**    
 1. Copy the two jar files into your project's libs folder    
