@@ -29,7 +29,7 @@ The view for this app is very simple. It will be a single button that functions 
 
 <img src="images/view.png"/>
 
-			<Button
+	<Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Call"
@@ -37,7 +37,7 @@ The view for this app is very simple. It will be a single button that functions 
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"/>
 
-    <TextView
+	<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
