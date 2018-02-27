@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.0.0-alpha1_4b1ffa3a84049651baf9ad8f1563730b46c799f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.0.0-alpha1_0c26d1f68afb1e8d2599fcaae0f5c3c3a5babc43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.0.0-alpha1_ce0bd34c9e221a89d6c698e0bfbbccc1b865b5e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.0.0-alpha1_542e72ae3bfbb379f666af2d52a849daf2d0091a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alius\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_45efaca8cad6c05310f4e2f89506eb5eda74b029.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-26.0.0-alpha1_5ed8c5ed303bddd3417d9f0c4731b2fb17ff53ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.0.0-alpha1_d2ae9713f93d5072beb735f0126583a7683d5b82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.0.0-alpha1_0bd3aab9aa01bddf7cbd4156a87796fb85fc1a52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.0.0-alpha1_f440674432c631fd23aed6c8cd905d5d32fcba02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-26.0.0-alpha1_a4e4c86687c194353aa0cca6c7842c2931657992.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\libs\sinch-android-rtc-3.3.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1f310eca4ddd9acbaf12173e21e557af402703fd">
+        <dex dex="C:\Users\alius\Documents\GitHub\master\android-pstn-tutorial\app\build\intermediates\pre-dexed\debug\sinch-android-rtc-3.3.5_6e31f6fd9271fda4ab35799c522db2c48fefba15.jar" />
+    </item>
+
+</items>
