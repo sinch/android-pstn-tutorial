@@ -15,14 +15,22 @@ Once you've created your app, you will see your app key and secret in the dashbo
 
 To download a copy of the latest version of the Sinch Android SDK, head over to [sinch.com/downloads](https://www.sinch.com/downloads/). Once you've downloaded the SDK, follow these instructions to include it in your project:
 
-**Android Studio**    
-1. Copy the two jar files into your project's libs folder    
-2. Right-click the .jar files and select "Add as library"    
-3. Create a new folder under src/main and name it jniLibs     
-4. Move the armeabi and armeabi-v7a folders into the jniLibs folder you just created    
+**Android Studio**  
+<ol>
+<li>Copy the entire libs folder to your project’s app folder</li>
+	<li>Open build.gradle (Module) in allprojects  >  repositories , add these lines
+		
+               flatDir {
+                   dirs '/libs'
+		       }
+  
+</li>
+	<li>Finally, open build.gradle (Project) in dependencies and add this line:
 
-**Eclipse**    
-Copy the entire libs folder into your project's root directory.
+          compile(name:'sinch-android-rtc', version:'+', ext:'aar')
+
+</li>  
+</ol>
 
 ##Create the view
 The view for this app is very simple. It will be a single button that functions as both the **call** and **hang-up** button. There will also be a TextView that shows the state of the call (ringing or connected, for example).
