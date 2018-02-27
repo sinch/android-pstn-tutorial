@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Zaeem\\Documents\\GitHub\\android-pstn-tutorial\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Zaeem\\Documents\\GitHub\\android-pstn-tutorial\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\alius\\Documents\\GitHub\\master\\android-pstn-tutorial\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\alius\\Documents\\GitHub\\master\\android-pstn-tutorial\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     }

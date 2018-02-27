@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\Zaeem\\Documents\\GitHub\\android-pstn-tutorial\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Zaeem\\Documents\\GitHub\\android-pstn-tutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zaeem\\Documents\\GitHub\\android-pstn-tutorial\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Zaeem\\Documents\\GitHub\\android-pstn-tutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "C:\\Users\\alius\\Documents\\GitHub\\master\\android-pstn-tutorial\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\alius\\Documents\\GitHub\\master\\android-pstn-tutorial\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
