@@ -33,7 +33,7 @@ public class CallActivity extends AppCompatActivity {
     private static final String APP_SECRET = "enter-application-secret";
     private static final String ENVIRONMENT = "sandbox.sinch.com";
 
-    private static final String PHONE_NO = "+61000000000";
+    private static final String PHONE_NO = "+46000000000";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
