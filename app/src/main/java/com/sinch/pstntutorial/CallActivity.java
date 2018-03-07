@@ -1,8 +1,13 @@
 package com.sinch.pstntutorial;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.media.AudioManager;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -16,24 +21,39 @@ import com.sinch.android.rtc.calling.CallListener;
 import java.util.List;
 
 
-public class CallActivity extends ActionBarActivity {
+public class CallActivity extends AppCompatActivity {
 
     Call call;
     Button callButton;
     TextView callState;
+
+    private static final String USER_ID = "current-user-id";
+
+    private static final String APP_KEY = "enter-application-key";
+    private static final String APP_SECRET = "enter-application-secret";
+    private static final String ENVIRONMENT = "sandbox.sinch.com";
+
+    private static final String PHONE_NO = "+46000000000";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_call);
 
+        if (ContextCompat.checkSelfPermission(CallActivity.this, android.Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED || ContextCompat.checkSelfPermission(CallActivity.this, android.Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(CallActivity.this,
+                    new String[]{android.Manifest.permission.RECORD_AUDIO, Manifest.permission.READ_PHONE_STATE},
+                    1);
+        }
+
+
         final SinchClient sinchClient = Sinch.getSinchClientBuilder()
-            .context(this)
-            .userId("current-user-id")
-            .applicationKey("key")
-            .applicationSecret("secret")
-            .environmentHost("sandbox.sinch.com")
-            .build();
+                .context(this)
+                .userId(USER_ID)
+                .applicationKey(APP_KEY)
+                .applicationSecret(APP_SECRET)
+                .environmentHost(ENVIRONMENT)
+                .build();
 
         sinchClient.setSupportCalling(true);
         sinchClient.start();
@@ -45,7 +65,7 @@ public class CallActivity extends ActionBarActivity {
             @Override
             public void onClick(View view) {
                 if (call == null) {
-                    call = sinchClient.getCallClient().callPhoneNumber("+46000000000");
+                    call = sinchClient.getCallClient().callPhoneNumber(PHONE_NO);
                     call.addCallListener(new SinchCallListener());
                     callButton.setText("Hang Up");
                 } else {
@@ -76,7 +96,8 @@ public class CallActivity extends ActionBarActivity {
         }
 
         @Override
-        public void onShouldSendPushNotification(Call call, List<PushPair> pushPairs) {}
+        public void onShouldSendPushNotification(Call call, List<PushPair> pushPairs) {
+        }
     }
 
 }
